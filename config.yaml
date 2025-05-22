@@ -1,0 +1,15 @@
+llm:
+  provider: google
+  model: gemini-pro
+  temperature: 0.3
+  api_key_env_var: GOOGLE_API_KEY
+
+pdfs:
+  paths:
+    - data/1.pdf
+    - data/2.pdf
+    - data/3.pdf
+
+retriever:
+  chunk_size: 500
+  chunk_overlap: 50
